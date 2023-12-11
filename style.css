@@ -313,7 +313,9 @@ h1, h2, h3, h4 {font-family: var(--ff-heading);}
     padding: var(--s);
     user-select: none;
     overflow: hidden;
+    list-style: none;
 }
+.spoiler__heading::-webkit-details-marker {display: none;}
 .spoiler__desc {
     max-width: var(--max-w-lg);
     padding-inline: var(--l);
