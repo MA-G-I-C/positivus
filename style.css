@@ -364,6 +364,7 @@ h1, h2, h3, h4 {font-family: var(--ff-heading);}
 .nav-toggle {display: none;}
 .nav-toggle:checked ~ .header__nav {display: block;}
 .nav-toggle:checked ~ .icon-btn {color: var(--clr-accent);}
+.nav-toggle:not(:checked) ~ .icon-btn {color: var(--clr-primary);}
 body:has(.nav-toggle:checked) {overflow: hidden;}
 
 /* Sections */
